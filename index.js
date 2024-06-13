@@ -13,7 +13,7 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ extended: true }));
 
-// Logging Middlewaare
+// Logging Middleware
 app.use((req, res, next) => {
   const time = new Date();
 
